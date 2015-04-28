@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_h2"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    
+    android:layout_gravity="center_horizontal"
+    >
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_gravity="left"
+	    android:layout_marginLeft="180px"
+	    android:layout_marginTop="6px"    
+	    >
+	
+	     <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="@string/beifenqianbao"
+	      android:textSize="17sp"
+	      android:layout_gravity="center_vertical"
+	    
+	      android:layout_marginLeft="40px"
+	      android:id="@+id/title"
+	      android:textColor="#02536e"
+	        />
+	    
+	</LinearLayout>
+	
+	   <TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/inputpassword"
+	    android:textColor="@android:color/white" 
+	       android:layout_marginLeft="40px"
+	    android:textSize="17sp"
+	    android:layout_marginTop="35px"
+	    />
+	 <EditText 
+	     
+	     android:layout_width="300px"
+	     android:layout_height="30px"
+	     android:id="@+id/pwd1"
+	     android:inputType="textPassword"
+		 android:maxLength="30"
+		 android:digits="1234567890qwertyuiopasdfghjklzxcvbnmABCDEFGHIJKLMNOPQRSTUVWXYZ"	
+		 android:imeOptions="actionDone"
+		 android:background="@drawable/bg_edittext"    
+		 android:layout_marginLeft="40px" 
+		 
+	     /> 
+	      <LinearLayout 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal"
+	     android:layout_marginTop="10px"
+	     >
+	      <Button
+	     android:layout_width="120px"
+	     android:layout_height="50px"
+	     android:layout_marginLeft="50px"
+	     android:text="@string/clear"
+	     android:id="@+id/btn_2"
+	      android:background="@drawable/button_bg"
+         android:textSize="19sp"
+         android:textColor="@android:color/white" 
+         android:paddingBottom="5px"
+	     />  	     
+	      <Button
+	     android:layout_width="120px"
+	     android:layout_height="50px"
+	     android:layout_marginLeft="40px"
+	     android:text="@string/confirm"
+	     android:id="@+id/btn_1"
+	      android:background="@drawable/button_bg"
+         android:textSize="19sp"
+         android:textColor="@android:color/white" 
+         android:paddingBottom="5px"
+	     />  
+	 </LinearLayout>       
+   
+   
+
+</LinearLayout>

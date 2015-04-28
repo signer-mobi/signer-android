@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_v3"
+>
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+     <TextView
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:text="@string/set_erweimachangdu"	     
+		      android:layout_gravity="center_vertical"
+		      android:id="@+id/title"
+		      android:textSize="@dimen/textsize3"
+	          android:textColor="#5b5f9b"
+		    
+		        />	
+        
+       <TextView 
+        android:id="@+id/erweimachangdu_display"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize"
+        
+        android:text="@string/erweimachangdu_content"
+      
+        android:textColor="@android:color/white" 
+        android:background="#4f4f4f"
+          />
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+
+     android:orientation="horizontal" >
+       <SeekBar 
+        
+        android:id="@+id/erweimachangdu_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="1948"
+        android:layout_marginLeft="6dp"
+          />
+       
+    <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="3dp"
+     android:layout_marginTop="15dp"
+     android:orientation="vertical"
+     >
+        <Button 
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/plus"
+        android:id="@+id/erweimachangdu_add"
+       
+          />
+       <Button 
+          
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/minus"
+        android:id="@+id/erweimachangdu_cut"
+          />
+     
+     
+       </LinearLayout>
+  </LinearLayout>
+         <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="@string/erweimachangdu_default"
+        android:id="@+id/erweimachangdu_default"
+        android:textColor="@android:color/white" 
+        android:textSize="@dimen/textsize"
+       
+	    android:layout_gravity="center_horizontal"
+	     android:paddingBottom="5px"
+          />
+            
+  	     <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	     android:layout_gravity="center_horizontal"
+	   
+	    
+	    >
+	     <Button 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:id="@+id/erweimachangdu_quxiao"
+	      android:text="@string/quxiao"    
+	       android:layout_weight="1"
+	       android:background="@drawable/button_bg"
+          android:textColor="@android:color/white" 
+           android:textSize="@dimen/textsize"
+          android:paddingBottom="8px"
+          
+
+	         />
+	      <Button 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:id="@+id/erweimachangdu_queren"
+	      android:text="@string/queding"   
+	       android:background="@drawable/button_bg"
+          android:textColor="@android:color/white" 
+            android:textSize="@dimen/textsize"
+          android:paddingBottom="8px" 
+          android:layout_weight="1"
+          
+         
+          
+	         />
+  </LinearLayout>    
+ 
+  </LinearLayout>
+
+</FrameLayout>

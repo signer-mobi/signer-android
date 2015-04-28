@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="240dp"
+    android:layout_height="432dp"
+   
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg_v3"
+    >
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	     android:layout_gravity="left"
+	     android:layout_marginTop="10dp"
+	    >
+	    <ImageView 
+	      android:layout_width="55dp"
+	      android:layout_height="40dp"
+	      
+		  android:visibility="invisible"	
+	        />
+	     <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="@string/beifenqianbao"
+	     
+	      android:layout_gravity="center_vertical"
+	      android:id="@+id/title"
+	      android:textSize="17sp"
+          android:textColor="#02536e"
+	      android:layout_marginLeft="90dp"  
+	        />
+	    
+	</LinearLayout>
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="240px"
+		    android:background="@drawable/shuoming_bg"
+		    android:layout_marginTop="5px" 
+		   
+		    >
+		    
+		   <TextView
+	      android:layout_width="230px"
+	      android:layout_height="180px"
+	      android:text="@string/shuoming"
+	      android:textSize="18sp"
+	     android:id="@+id/shuoming"
+	      android:textColor="@android:color/white" 
+	      android:layout_marginTop="40px"
+	      android:layout_marginLeft="15px"
+	     
+	        />
+		 		    
+		</LinearLayout>	   
+	
+	     <Button 
+	      android:layout_width="200px"
+	      android:layout_height="45px"
+	      android:id="@+id/btn_1"
+	      android:text="@string/lijiele"  
+	      android:background="@drawable/button_bg"
+          android:textColor="@android:color/white" 
+          android:textSize="19sp"
+          android:paddingBottom="5px"
+        
+	         />
+	      <Button 
+	      android:layout_width="200px"
+	      android:layout_height="45px"
+	      android:id="@+id/btn_2"
+	      android:text="@string/bubeifen"  
+	      android:background="@drawable/button_bg"
+          android:textColor="@android:color/white" 
+          android:textSize="19sp"
+          android:paddingBottom="5px"   
+	         />
+   
+   
+   
+
+
+</LinearLayout>

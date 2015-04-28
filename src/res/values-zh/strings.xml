@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">签名器</string>
+    <string name="show_addr">显示地址</string>
+    <string name="showaddress">显示地址</string>
+    <string name="scan_request">扫描任务</string>
+    <string name="title_scan_request">扫描任务</string>
+    <string name="input_request">输入签名任务</string>
+    <string name="history">历史记录</string>
+    <string name="others">其它功能</string>
+    <string name="initaccount">帐户初始化</string>
+    <string name="autocreate">自动生成帐户\n（首选）</string>
+    <string name="manualcreate">手工输入帐户</string>
+    <string name="importaccount">导入帐户</string>  
+    <string name="switchaccount">切换帐户</string>    
+    <string name="backupaccount">备份帐户</string>
+    <string name="resetaccount">重置帐户</string>
+    <string name="instructions">操作提示</string>
+        <string name="next">继续</string>
+        <string name="createaccountnotice">创建帐户提示</string>
+    <string name="createaccountnoticecontent">请输入密码，创建签名器账户。密码是账户的一切。忘记密码会导致账户内全部比特币、虚拟币丢失。请务必牢记密码。密码不要设置过简单，尽量不要有重复字符、连续字符、拼音或英文单词</string>    
+     <string name="oknext">知道了继续</string>   
+    <string name="rememberpassword">请务必牢记密码</string>    
+        <string name="createaccountok">帐户创建成功</string>
+        <string name="input10digits">请输入不少于10位的字母或数字密码</string>
+        <string name="creatingaccount">创建账户中</string>
+     <string name="mismatch">两次密码不一致请重新输入</string>   
+     <string name="createaccount">创建帐户</string>   
+     <string name="inputpassword1">请输入第一遍密码（10位以上）</string>
+    <string name="inputpassword2">请输入第二遍密码（10位以上）</string>   
+    <string name="clear">清空</string>
+    <string name="confirm">确认</string>
+    <string name="scanqr">请扫描二维码</string>
+    <string name="scan_request_fail">扫描签名任务失败</string>
+    <string name="getpassword">请输入密码</string>
+    <string name="signresult">签名回执</string>
+    <string name="about">关于</string>
+    <string name="accountmanage">帐户管理</string>    
+     <string name="btn_changepwd">更改密码</string>
+    <string name="text_changepwd">警告!更改密码是高度危险的操作，如果你遗忘新密码,你可能会丢失账户内的所有币。请确认是否要更改密码</string>
+    <string name="changepwdok">更改密码成功</string>
+    <string name="inputnewpwd">请输入新密码 (10位以上)</string>
+    <string name="inputnewpwd2">请再次输入新密码 (10位以上)</string> 
+    <string name="btn_newaccount">新建账户</string>
+    <string name="current_account">当前账户:</string>
+    
+    
+    
+          <string name="action_settings">继续</string>
+
+          <string name="quxiao">取消</string>
+          <string name="saomiaozhucema">扫描注册码</string>
+           <string name="scanwallet">请扫描钱包信息</string>
+                   <string name="showid">请扫描ID</string>
+                    <string name="inputpassword">请输入密码</string>
+                    <string name="inputresetpassword">请输入重置密码（不是账户密码）</string>
+                   <string name="xiayibu">下一步</string>
+                   <string name="fukuan">付款</string>
+                   <string name="saomiaofukuanshenqing">扫描付款申请</string>
+                   
+                   <string name="mimayanzheng">验证密码中</string>
+           <string name="createfailure">创建账户失败，如多次尝试都失败，请联系供应商更换产品</string>
+               
+               
+                <string name="getsqlitefailure">读取数据库失败，请重启硬件钱包，再次尝试，如果再次失败，请使用“彻底刷新功能”。请放心，这不会影响你的账户安全，只是暂时影响付款</string>
+               <string name="shoukuanjine">收款金额</string>
+               <string name="create_qr">生成二维码</string>
+               <string name="updateOK">数据同步成功.</string>
+               <string name="updatepartial">数据同步未完成，进行了部分刷新，账户余额不准确，但不影响付款。</string>
+               <string name="updatefail">数据同步失败，请检查以下事项：联网端程序是否是正确的版本；</string>
+               <string name="updatewrongformat">数据格式错误，请检查以下事项：本硬件是否是正确的版本，联网端程序是否是正确的版本；</string>
+               <string name="updatecancel">数据同步取消。如果有新的收入而没有同步，您的账户余额会少于实际余额。如果您使用备份的钱包在其它处进行了付款，则必须对本硬件钱包进行刷新，否则无法正常付款；</string>
+                 <string name="title_activity_getcoin">收款</string>
+                 <string name="title_update_account">刷新数据</string>
+                 <string name="info_scanpage">请扫描页数：</string>
+                   <string name="duplicatescan">重复扫描，请在被扫描设备上翻到下一页再扫描，注意页码提示</string>
+                   <string name="jumpedscan">有页面漏扫，请在被扫描设备上向前翻页，注意页码提示</string>
+                   <string name="continuescan">扫描成功，请继续扫描下一页</string>
+                   <string name="badscan">数据错误，请重新扫描</string>
+                   <string name="shouxufei">设置手续费</string>
+                   <string name="setqrlength">二维码长度</string>
+                   <string name="settings">设置</string>
+                   <string name="unbackuped">钱包未备份，如果本硬件钱包故障或丢失，您将损失全部的比特币，所以请立即备份</string>
+                   <string name="shuoming">钱包未备份，如果本硬件钱包故障或丢失，您将损失全部的比特币，所以请立即备份</string>
+                   <string name="badfeedback">回执错误，请确认获取钱包备份的程序版本是否正确</string>
+                   <string name="badaddress">地址格式错误，请确认是否是比特币地址二维码</string>
+                   <string name="badaddress2">地址格式错误，请修改</string>
+                   <string name="amounttoobig">付款金额大于余额，请修改</string>
+                   <string name="balance">余额:</string> 
+                    <string name="scan">请扫描</string>
+                     <string name="finish">完成</string>
+                      <string name="forward">下一页</string>
+                <string name="backward">上一页</string>
+                <string name="show_trxqr_failure">扫描交易二维码取消，请在联网端确认交易是否成功广播。如果想重新发送，请在“付款”页面点击“重新发送”</string>
+                <string name="income">收入</string>
+                <string name="payout">支出</string>
+                <string name="rescantrx">重新扫描交易</string>
+                <string name="calculate_time">根据您设置的个性化地址开头，所需计算时间约为</string>
+                <string name="calculate_time2">秒，请确认</string>
+                <string name="settime">设置时间</string>
+                <string name="headertoolong">字符串过长，最长6个字符</string>
+                <string name="total_update_info">彻底刷新将覆盖您的账户信息，如果您的未花费收入较多，刷新可能扫描较多页面，刷新成功与否完全不影响您的账户实际资金情况。请确认是否进行</string>
+                <string name="paymentfailure">付款信息错误，请重新输入</string>
+                <string name="calculator">计算器</string>
+                 <string name="prev_trx">重发前次交易</string>
+                  <string name="notrx">没有未发送的交易</string>
+                  <string name="payable_amount">当前可用余额</string>
+                  <string name="shoukuandizhi">  收款地址：\n</string>
+                  <string name="feeis">  您设置的手续费是：</string>
+                  <string name="highfee">，此手续费大幅高于比特币初始值，请确认是否真的要采用此手续费？</string>
+                  <string name="toohighfee">手续费过高，请重新设置</string>
+                  <string name="lowfee">，此手续费低于比特币的初始值，手续费过低可能导致交易无法被确认，请确认是否真的要采用此手续费？</string>
+                  <string name="confirmfee">，请确认是否要改变手续费？</string>
+                  <string name="qrlengthis">您设置的二维码长度是：</string>
+                  <string name="confirmqrlength">二维码长度过短会导致扫描页面过多，过长会导致识别困难。请确认是否修改二维码长度</string>
+                  <string name="paymentsent">如联网端发送成功，请执行“刷新余额”功能，刷新该笔交易。如需重新发送交易，请点击付款-重新发送交易。如果放弃该交易，隔1个小时后再刷新余额，系统会修正余额</string>
+                <string name="beifenshuoming">重要提示：如不备份钱包，若硬件钱包丢失或损坏将造成的币的不可逆丢失。所以请务必先备份钱包再开始使用硬件钱包</string>                
+                <string name="shuomingshu2">  说明书\n     请按照提示生成账户与备份。 每获得一笔收入之后，请先刷新余额，收录该笔收入。之后可以进行付款。 付款不必刷新余额。如果有未广播的付款交易，请隔1小时后刷新余额，该笔付款会被删除 .详情请参阅:\nwww.hardbit.cn</string>   
+                <string name="guanyu2">   软件名称：签名器离线端\n   版本：v1.0\n  网址：\nwww.signer.mobi\n   联系方式 :\nservice@signer.mobi</string> 
+               
+                
+                <string name="title_activity_fukuan3ctivity">付款3</string>
+                     <string name="title_activity_fukkuan4">付款4</string>
+                     <string name="title_activity_cxyue">查询余额</string>
+                     <string name="title_activity_qita">其它功能</string>
+                     <string name="title_activity_shouxufei">手续费设置</string>
+                     <string name="title_activity_calculator">计算器</string>
+                 
+    <string name="title_activity_shuaxinyue">刷新余额</string>
+    <string name="title_activity_shuaxinyue2">刷新余额</string>
+     <string name="title_activity_fukuan2">付款</string>
+    <string name="title_activity_beifenqianbao">备份钱包</string>
+    
+    
+    
+    <string name="chaxun">查询余额</string>
+   
+    
+    <string name="beifen">备份</string>
+    <string name="shuaxin">刷新余额</string>
+    <string name="shezhi">其它功能</string>
+    <string name="shoukuan">收款</string>
+    <string name="yingjianqianbao">硬件钱包</string>
+    <string name="zhuce">注册</string>
+
+    <string name="saomiao">开始扫描</string>
+    <string name="zhuceok">注册成功</string>
+    <string name="zhuceoktishi">注册成功请按继续进行下一步操作</string>
+    
+    
+    
+    
+    
+    <string name="zhidaole2">知道了</string>
+    
+    
+    
+    
+    
+    
+    
+	<string name="beifenqianbao">备份钱包</string>
+	<string name="lijiele">理解了继续</string> 
+	<string name="bubeifen">不备份，直接使用</string> 
+	
+	<string name="jixubeifen">继续备份</string> 
+	<string name="qedingbubeifen">确定不备份</string> 
+	<string name="tishi">提示</string> 
+	<string name="tishinerong">提示内容</string> 
+	<string name="quedingbubeifen">确定不备份吗？</string> 
+	<string name="qingshurumima">请输入密码（10位以上）</string> 
+	<string name="mimacuowu">密码错误请重新输入</string> 
+	<string name="qingsaomiao2code">请扫描二维码</string>  
+	<string name="yisaomiao">已扫描，继续</string>
+	
+	<string name="saomiaohuizhima">请扫描备份回执码</string> 
+	<string name="benfenchenggong">备份成功</string> 
+	<string name="benfenchenggongshuoming">备份成功按继续进行下一步操作</string>  
+	<string name="shuaxinyue">刷新余额</string> 
+	
+	<string name="weisaomiao">未扫描取消</string> 
+	<string name="shougongshuru">手工输入付款信息</string>     
+	
+	
+	<string name="fukuanmubiaodizhi">付款目标地址</string>  
+	<string name="fukuanjine">付款金额</string>  
+	<string name="querenfukuan">确认付款</string>  
+	<string name="qingshurujine">请输入金额</string>  
+	<string name="qingshurudayu">请输入大于0的金额</string> 
+	<string name="qurenfukuan">确认付款</string> 
+	<string name="chaxunyue">查询余额</string> 
+	<string name="yue">余额</string> 
+	<string name="jaoyijilu">交易记录</string> 
+	<string name="shuliang">数量</string> 
+	<string name="shijian">时间</string> 
+	<string name="fangshi">方式</string> 
+	
+	<string name="chedishuaxin">彻底刷新</string>
+	
+	<string name="yuyan">语言</string>
+	
+	<string name="shuomingshu">说明书</string>
+	<string name="queding">确定</string>
+	<string name="zhongwen">简体中文</string>
+	<string name="yingwen">ENGLISH</string>
+	
+	<string name="chushihua">初始化</string>  
+	  
+	<string name="fukuandizhi">付款地址</string> 
+	<string name="xiayiye">下一页</string>   
+	<string name="shangyiye">上一页</string>  
+	<string name="dangqianyue">当前余额:</string>  
+	<string name="zhuangtai">状态</string>  
+	<string name="yeqeuren">已确认</string>   
+	<string name="qitagongneng">其他功能</string> 
+    <string name="qita_jisuanqi">计算器</string>
+    <string name="qita_shezhi">设置</string>  
+    <string name="shezhi_erweimachangdu">二维码长度</string>
+    <string name="erweimachangdu_content">二维码长度:</string> 
+    <string name="set_erweimachangdu">设置二维码长度</string> 
+    <string name="erweimachangdu_default">默认值</string> 
+    <string name="language_choose">语言选择</string>
+     <string name="bytee">字节</string>
+    
+    
+    <string name="autuqianbanbufen">自动生成前半部分:</string>
+    <string name="shuruhoubanbufen">手工输入后半部分:</string>
+    <string name="create_zhts">创建账户提示</string>
+    <string name="zhanghu_key">您输入的账户私钥是：</string>
+      
+    <string name="initialize_instruction">请到 http://www.signer.mobi/downloads下载用户操作手册和联网端软件程序. \n 请参考用户操作手册来使用签名器</string>
+        <string name="import_account">导入账户</string>
+    <string name="import_OK">导入账户成功</string>
+    <string name="import_fail">导入账户失败</string>
+    <string name="no_reset">只有备份后才可以重置账户</string>
+    <string name="no_import">只有备份后才可以导入账户</string>
+    <string name="resetaccountnotice">重置账户是不可逆操作。如果您的备份损坏或丢失，您将丢失账户内的全部比特币。请确认是否重置？</string>
+    <string name="importaccountnotice">导入账户是不可逆操作。如果您的备份损坏或丢失，您将丢失账户内的全部比特币。请确认是否导入？</string>
+    <string name="gexinghua_dz">个性化地址</string>
+    <string name="inputheader">请输入个性化地址开头</string>
+        <string name="title_signing">交易签名</string>
+    <string name="text_signing">正在为交易签名，请稍候…</string>
+        <string name="text_amounttoosmall">Amount too small to send</string>
+        <string name="bizhong_gl">币种管理</string>
+    <string name="bizhong">币种</string>
+    <string name="dr_bizhong">导入币种</string>
+    <string name="xiangmu">项目</string>
+    <string name="xinxi">信息</string>
+    <string name="mingcheng">名称</string>
+    <string name="suoxie">缩写</string>
+    <string name="logo">LOGO</string>
+    <string name="qr_shijian">确认时间</string>
+    <string name="suanfa">算法</string>
+    <string name="meikuai_cl">每块产量</string>
+    <string name="del_bizhong">删除币种</string>
+     <string name="btn_coinmanage">币种管理</string>
+  <string name="title_importcoin">导入币种</string>  
+  <string name="text_cointypeexists">币种已存在.</string>  
+   <string name="btn_checkallcoins">查所有币种\n余额</string>  
+    
+  <string name="coin_type_deleted">币种已删除:</string>
+  <string name="halflife">减半周期</string>
+  <string name="maxamount">最大数量</string>
+  
+    <string name="text_delete_cointype_notice">将在币种列表中删除币种信息.这不会影响您账户该币种的余额，但是你暂时看不到该币种的余额.请确认是否删除币种</string>
+	
+</resources>

@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    >
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	        android:layout_gravity="left"
+	    >
+	    <ImageView 
+	      android:layout_width="55dp"
+	      android:layout_height="55dp"
+	     
+	        />
+	     <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="@string/createaccount"
+	      android:textSize="24sp"
+	      android:layout_gravity="center_vertical"
+	      android:textColor="@android:color/white" 
+	      android:layout_marginLeft="30px"
+	      
+	        />
+	    
+	</LinearLayout>
+	
+	    <TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/inputpassword1"
+	    android:textColor="@android:color/white" 
+	    />
+	 <EditText 
+	     
+	     android:layout_width="300px"
+	     android:layout_height="40px"
+	     android:id="@+id/pwd1"
+	     android:inputType="textPassword"
+		 android:maxLength="30"
+		 android:digits="1234567890qwertyuiopasdfghjklzxcvbnmABCDEFGHIJKLMNOPQRSTUVWXYZ"	
+		 android:imeOptions="actionDone"
+		 
+	     /> 
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/inputpassword2"
+	    android:textColor="@android:color/white" 
+	    />
+	 <EditText 
+	     android:layout_width="300px"
+	     android:layout_height="40px"
+	     
+	     android:id="@+id/pwd2"
+	     android:inputType="textPassword"
+		 android:maxLength="30"	
+		 android:digits="1234567890qwertyuiopasdfghjklzxcvbnmABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+		 android:imeOptions="actionDone"	
+	     />  
+	 <LinearLayout 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal"
+	     >
+	      <Button
+	     android:layout_width="100px"
+	     android:layout_height="50px"
+	     android:layout_marginLeft="85px"
+	     android:text="@string/clear"
+	     android:id="@+id/btn_2"
+	     />  	     
+	      <Button
+	     android:layout_width="100px"
+	     android:layout_height="50px"
+	     android:layout_marginLeft="65px"
+	     android:text="@string/confirm"
+	     android:id="@+id/btn_1"
+	     />  
+	 </LinearLayout>         
+	
+	    
+	    
+
+	
+	  
+	     
+	
+ 
+
+</LinearLayout>

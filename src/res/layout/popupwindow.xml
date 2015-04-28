@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/popup_bg"
+    >
+<ListView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/yuyanxuanze"    
+    android:layout_marginTop="40px"
+    android:layout_marginLeft="13px"
+    android:divider="@null" 
+
+    /> 
+ 
+<LinearLayout
+	android:gravity="center_horizontal" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>  
+<Button
+	android:id="@+id/bt_ok"
+	android:text="@string/queding"
+	android:layout_width="150px" 
+    android:layout_height="50px"
+    android:layout_marginTop="20px"
+    android:background="@drawable/button_bg"
+    android:textColor="@android:color/white" 
+    android:textSize="20sp"
+    android:paddingBottom="7px"
+	/>  
+
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+{
+"coinlist":
+[{"cointype":"BTC","updatetime":"20140716"},
+{"cointype":"LTC","updatetime":"20140713"},
+{"cointype":"DOG","updatetime":"20140723"}],
+"updatetime":"20140723"
+}

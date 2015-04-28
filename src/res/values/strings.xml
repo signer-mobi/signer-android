@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Signer</string>
+    <string name="show_addr">Show Addr.</string>
+    <string name="scan_request">Scan Req.</string>
+    <string name="title_scan_request">Scan Reqiest</string>
+    <string name="input_request">Input Req.</string>
+    <string name="history">History</string>
+    <string name="others">Others</string>
+    <string name="initaccount">Init Account</string>
+    <string name="autocreate">Auto Create\n(recommended)</string>
+    <string name="manualcreate">Manual Create</string>
+    <string name="importaccount">Import</string>
+     <string name="switchaccount">Switch</string>
+    <string name="backupaccount">Backup</string>
+    <string name="resetaccount">Reset</string>
+    <string name="instructions">Instructions</string>
+    <string name="next">Next</string>
+    <string name="createaccountnotice">Create Account Notice</string>
+    <string name="createaccountnoticecontent">Please input password to create Signer account.Password is EVERYTHING of the account, forgetting password means irrevirsablly lost of all Bitcoins/Altcoins in the account.Please remember the password.don\'t use too simple password,the password should be at least 10 characters, avoid repeating, incremental, or full words</string>
+    <string name="oknext">Ok,next</string>
+    <string name="rememberpassword">Please DO remember the password</string>
+    <string name="createaccountok">Create account succeeded</string>
+    <string name="input10digits">Please input at least 10 digits of letter or number</string>
+    <string name="creatingaccount">Creating account</string>
+    <string name="mismatch">mismatch of 2 inputs</string>
+    <string name="createaccount">Create Account</string>
+    <string name="inputpassword1">Input password first time (10+ digits)</string>
+    <string name="inputpassword2">Input password second time (10+ digits)</string>
+    <string name="clear">Clear</string> 
+    <string name="confirm">Confirm</string>
+    <string name="showaddress">Show Address</string>
+    <string name="scanqr">Scan QR code</string>
+    <string name="scan_request_fail">Scan Sign request failed</string>
+    <string name="getpassword">Input Password</string>
+    <string name="signresult">Sign Result</string>
+    <string name="about">About</string>
+    <string name="accountmanage">Account</string>    
+    <string name="btn_changepwd">Change Password</string>
+    <string name="changepwdok">Change password succeeded</string>
+    <string name="inputnewpwd">Input NEW password (10+ digits)</string>
+    <string name="inputnewpwd2">Input NEW password again(10+ digits)</string>
+    <string name="btn_newaccount">New</string>
+    <string name="current_account">Current Account:</string>
+    
+    
+    <string name="chaxun">Balance</string>
+   <string name="shuaxin">Sync</string>
+      <string name="shoukuan">Collect</string>
+   	<string name="shuaxinyue">Sync account</string> 
+   <string name="yingjianqianbao">Menu</string>
+   <string name="rescantrx">Rescan prev trx</string>
+   <string name="saomiaofukuanshenqing">Scan request</string>
+   <string name="payable_amount">Active amount</string>
+   <string name="querenfukuan">Confirm</string>  
+   <string name="fukuanmubiaodizhi">Target address</string>  
+	<string name="fukuanjine">Pay amount</string> 
+	<string name="finish">Done</string>
+		<string name="qingsaomiao2code">Scan QR code</string> 
+		<string name="bubeifen">Skip backup</string>
+		<string name="chedishuaxin">Total Sync</string>
+		    <string name="qita_shezhi">Settings</string>
+	<string name="shuomingshu">Manual</string> 
+		 
+		  
+   
+          <string name="input_password">Input Password</string>
+           <string name="action_settings">Continue</string>
+          <string name="quxiao">Cancel</string>
+          <string name="saomiaozhucema">Scan Regcode</string>
+           <string name="scanwallet">Scan wallet data</string>
+                   <string name="showid">Please scan ID</string>
+                    <string name="inputpassword">Please input password</string>
+                     <string name="inputresetpassword">Please input RESET password</string>
+                   <string name="xiayibu">Next</string>
+                   <string name="fukuan">Pay</string>
+                   
+                   <string name="mimayanzheng">Verifying password</string>
+           <string name="createfailure">Creating account failed. If you fail several time, please contact vendor</string>
+               
+               
+                <string name="getsqlitefailure">Read database failure.Please restart system and try again，If fail again,please use "total update" function。This will not affect your account safety, only temporily affects payment.</string>
+               <string name="shoukuanjine">Amount:</string>
+               <string name="create_qr">Create QR code</string>
+               <string name="updateOK">Update succeeded.</string>
+               <string name="updatepartial">Update not finished.Partially updated, the account balance maybe not correct,but this won\'t affect payment</string>
+               <string name="updatefail">Update failed.Please check if the Hardbit online client is with correct version.</string>
+               <string name="updatewrongformat">Wrong data format.Please check if the version of this hardware matches the version of online client.</string>
+               <string name="updatecancel">Update canceled.If you have new income but not updated, the shown balance maybe smaller than actual balance. If you paid via the backuped wallet elsewhere, you must update this hardware or you can\'t pay by it</string>
+                 <string name="title_activity_getcoin">Get coin</string>
+                 <string name="title_update_account">Update Account</string>
+                 <string name="info_scanpage">Please scan page：</string>
+                   <string name="duplicatescan">Duplicated scan.Please turn to next page on the scanned device according to the page number</string>
+                   <string name="jumpedscan">Page in between unscaned，Please turn to previous page on the scanned device according to the page number</string>
+                   <string name="continuescan">Scan finished, please scan next page</string>
+                   <string name="badscan">Data error, please rescan</string>
+                   <string name="shouxufei">Set fee</string>
+                   <string name="setqrlength">QR length</string>
+                   <string name="settings">Settings</string>
+                   <string name="unbackuped">Wallet not backuped.If this hardware wallet was broken or lost, you will lose all your Bitcoins in it.So please backup immediately</string>
+                   <string name="shuoming">Wallet not backuped.If this hardware wallet was broken or lost, you will lose all your Bitcoins in it.So please backup immediately</string>
+                   <string name="badfeedback">Wrong feedback.Please check the version of the software which receives the backup</string>
+                   <string name="badaddress">Wrong address format.Please confirm if it\'s a Bitcoin QR code</string>
+                   <string name="badaddress2">Wrong address format.Please correct.</string>
+                   <string name="amounttoobig">Payment amount is bigger than balance.Please correct</string>
+                   <string name="balance">Balance:</string> 
+                    <string name="scan">Please scan</string>
+                     
+                      <string name="forward">Next</string>
+                <string name="backward">Previous</string>
+                <string name="show_trxqr_failure">Scan transaction QR code is canceled，Please confirm if this transaction is successfully broadcasted.You an rebroadcast it buy clicking "rescan trx"in "Pay"page.</string>
+                <string name="income">Income</string>
+                <string name="payout">Payout</string>
+
+                <string name="calculate_time">According to your header, the estimated calculation time is</string>
+                <string name="calculate_time2">seconds, please confirm</string>
+                <string name="settime">Set time</string>
+                <string name="headertoolong">The header is too long, max.6 characters</string>
+                <string name="total_update_info">Total update will overwrite your account data,if you have many unspent incomes,their maybe many update pages，Whether update succeeded or not ,will not affect your actual account balance.Please confirm to proceed</string>
+                <string name="paymentfailure">Wrong payment information, please reinput</string>
+                <string name="calculator">Calculator</string>
+                 <string name="prev_trx">Rescan trx</string>
+                  <string name="notrx">No unsent Trx</string>
+                  
+                  <string name="shoukuandizhi">  Target address：\n</string>
+                  <string name="feeis">  The transaction fee you set is：</string>
+                  <string name="highfee">，this fee is much higher than default Bitcoin fee,please confirm if you do want to set the fee？</string>
+                  <string name="toohighfee">Fee too high,please reset</string>
+                  <string name="lowfee">，this fee is lower than Bitcoin default. Low fee may cause transaction refused by network.please confirm if you do want to set the fee？</string>
+                  <string name="confirmfee">，please confirm if you do want to set the fee？</string>
+                  <string name="qrlengthis">You set the QR code length to：</string>
+                  <string name="confirmqrlength">QR code length too short will cause too many pages to scan, QR code length too long will cause difficulty to recognize。Please confirm if you want to change the QR code length</string>
+                  <string name="paymentsent">If transaction is successfully broadcasted by online client,please run"update account"to update this transaction to database。You an rebroadcast it buy clicking "rescan trx"in "Pay"page.If you give up this trx, update account after 1 hour, and the system will correct your balance。</string>
+                <string name="beifenshuoming">Important notice：If this hardware wallet was broken or lost, you will lose all your Bitcoins in it.So please properly backup.</string>                
+                <string name="shuomingshu2">  Introduction\n     Please create account and backup it following the instructions。Please update account after every income,then you can pay。Payment does not need to update.If you have unbroadcasted payment, please update account after 1 hour, and than payment will be deleted.Read more:\nwww.hardbit.cn</string>   
+                <string name="guanyu2">   Software name：Signer Offline Client\n   Version：v1.0\n  website：\nwww.signer.mobi\n   Contact :\nsupport@signer.mobi</string> 
+               
+                
+                <string name="title_activity_fukuan3ctivity">Payment3</string>
+                     <string name="title_activity_fukkuan4">Payment4</string>
+                     <string name="title_activity_cxyue">View balance</string>
+                     <string name="title_activity_qita">Others</string>
+                     <string name="title_activity_shouxufei">Set fee</string>
+                     <string name="title_activity_calculator">Calculator</string>
+                 
+    <string name="title_activity_shuaxinyue">Update account</string>
+    <string name="title_activity_shuaxinyue2">Update account</string>
+     <string name="title_activity_fukuan2">Pay</string>
+    <string name="title_activity_beifenqianbao">Backup wallet</string>
+    
+    
+    
+    
+   
+    
+    <string name="beifen">Backup</string>
+   
+    <string name="shezhi">Others</string>
+ 
+
+    <string name="zhuce">Registrate</string>
+
+    <string name="saomiao">Start scan</string>
+    <string name="zhuceok">Registration succeeded</string>
+    <string name="zhuceoktishi">Registration succeeded,pleae click Next</string>
+    
+    
+    
+    
+    
+    <string name="zhidaole2">OK</string>
+    
+    
+    
+    
+    
+    
+    
+	<string name="beifenqianbao">Backup wallet</string>
+	<string name="lijiele">OK,continue</string> 
+	 
+	
+	<string name="jixubeifen">Go on backup</string> 
+	<string name="qedingbubeifen">Confirm not backup</string> 
+	<string name="tishi">Instruction</string> 
+	<string name="tishinerong">Instruction</string> 
+	<string name="quedingbubeifen">Confirm not backup？</string> 
+	<string name="qingshurumima">Please input password </string> 
+	<string name="mimacuowu">Wrong password, please input again</string> 
+ 
+	<string name="yisaomiao">Scanned, next</string>
+	
+	<string name="saomiaohuizhima">Please scan feedback code for backup</string> 
+	<string name="benfenchenggong">Backup succeeded</string> 
+	<string name="benfenchenggongshuoming">Backup succeeded,click next</string>  
+
+	
+	<string name="weisaomiao">Not scaned</string> 
+	<string name="ngshuru">Manual input</string>     
+	
+	
+	 
+	
+	<string name="qingshurujine">Please input amount</string>  
+	<string name="qingshurudayu">Please input amount bigger than 0</string> 
+	<string name="qurenfukuan">Confirm pay</string> 
+	<string name="chaxunyue">Show balance</string> 
+	<string name="yue">Balance</string> 
+	<string name="jaoyijilu">Transaction history</string> 
+	<string name="shuliang">Amount</string> 
+	<string name="shijian">Time</string> 
+	<string name="fangshi">way</string> 
+
+
+	
+	<string name="yuyan">Lauguage</string>
+	
+	
+	<string name="queding">Confirm</string>
+	<string name="zhongwen">简体中文</string>
+	<string name="yingwen">ENGLISH</string>
+	
+	<string name="chushihua">Initialize</string>  
+	  
+	<string name="fukuandizhi">Target address</string> 
+	<string name="xiayiye">next page</string>   
+	<string name="shangyiye">prev page</string>  
+	<string name="dangqianyue">Balance:</string>  
+	<string name="zhuangtai">stat</string>  
+	<string name="yeqeuren">confirmed</string>   
+	<string name="qitagongneng">Others</string> 
+    <string name="qita_jisuanqi">Calculator</string>
+
+    <string name="shezhi_erweimachangdu">QR code length</string>
+    <string name="erweimachangdu_content">QR code length:</string> 
+    <string name="set_erweimachangdu">set QR length</string> 
+    <string name="erweimachangdu_default">Default</string> 
+    <string name="language_choose">Choose language</string>
+     <string name="bytee">bytes</string>
+    
+	<string name="hello">Bitcoin Hardware Wallet </string>
+	    <string name="title_activity_saomiao_zhuce">SaomiaoZhuceActivity</string>
+	      <string name="title_activity_chuangjianzhanghu">Chuangjianzhanghu</string>
+
+
+
+	
+	 
+    <drawable name="clr_normal">#a0a6a5</drawable>
+    <drawable name="clr_pressed">#5e6766</drawable>
+     <drawable name="edit_jiaodian">#85a6a3</drawable>
+     
+    
+    
+    
+    <string name="autuqianbanbufen">Random part:</string>
+    <string name="shuruhoubanbufen">Manual input:</string>
+    <string name="create_zhts">Create Acount Notice</string>
+    <string name="zhanghu_key">The private key you input is: please don\'t copy it</string>
+      
+    <string name="initialize_instruction">Please download user\'s manual from http://www.signer.mobi/downloads. \n Please follow the user\'s manual for Signer operations</string>
+    <string name="import_account">Import Account</string>
+    <string name="import_OK">Account successfully imported</string>
+    <string name="import_fail">Account import failed</string>
+     <string name="text_importcoinOK">Coin type successfully imported</string>
+    <string name="text_importcoinfail">Coin type import failed</string>
+    <string name="no_reset">Please backup current account before reset</string>
+    <string name="no_import">Please backup current account before importing</string>
+    <string name="resetaccountnotice">Resetting account is irreversible. If your backup is lost or broken, you will lose all the coins in the account. Please confirm if go on with reset</string>
+    <string name="importaccountnotice">Importing account is irreversible. If your backup is lost or broken, you will lose all the coins in the current account. Please confirm if go on with import</string>
+    <string name="gexinghua_dz">Set Addr.Header</string>
+    <string name="inputheader">Please input address header</string>
+    <string name="title_signing">Signing Transaction</string>    
+    <string name="text_signing">Signing transactions takes a while, please wait…</string>
+    <string name="text_amounttoosmall">Amount too small to send</string>
+    <string name="btn_coinmanage">Coin Types</string>
+  <string name="title_importcoin">Import Coin Type</string>  
+  <string name="text_cointypeexists">Coin type already exists.</string>  
+   <string name="btn_checkallcoins">All Coins Balances</string>  
+    
+    <string name="text_changepwd">Warning!Changing password is extremely dangerous!If you forget the new password, you will lose all the coins in the account.Please confirm if you want to change your password</string>  
+  <string name="coin_type_deleted">Coin type deleted:</string>
+  <string name="halflife">Halflife</string>
+  <string name="maxamount">MaxAmount</string>
+      <string name="bizhong_gl">Coin Types Manage</string>
+    <string name="bizhong">Coin Type</string>
+    <string name="dr_bizhong">Import New</string>
+    <string name="xiangmu">Item</string>
+    <string name="xinxi">Info</string>
+    <string name="mingcheng">Name</string>
+    <string name="suoxie">Abbr</string>
+    <string name="logo">LOGO</string>
+    <string name="qr_shijian">Conf.Time</string>
+    <string name="suanfa">Alg.</string>
+    <string name="meikuai_cl">Coinbase</string>
+    <string name="del_bizhong">Delete</string>
+    <string name="text_delete_cointype_notice">will be deleted from coin type list.This won\'t affect your account balance, but you won\'t see the balance any more.Please confirm to Delete</string>
+	
+</resources>

@@ -1,0 +1,143 @@
+	 <FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" 
+    android:id="@+id/layout_main"
+    >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/bg_v3"
+	    
+	    android:orientation="vertical"
+	    android:gravity="center_horizontal"
+	    android:layout_gravity="center_horizontal"
+	    >
+
+		
+
+		<TextView
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		   android:text="@string/app_name"	     
+		      android:layout_gravity="center_vertical"
+		      android:id="@+id/title"
+		      android:textSize="@dimen/textsize3"
+	          android:textColor="#5b5f9b"		    
+		        />	
+		        <!-- 
+		<TextView
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		   android:text="@string/current_account"	     
+		      android:layout_gravity="center_vertical"
+		      android:id="@+id/txt_current_account"
+		      android:textSize="@dimen/textsize3"
+	          android:textColor="#ffffff"		    
+		        />	
+		         -->
+	   <Spinner
+		    android:id="@+id/spinner1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+	    <Button 
+	       
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:id="@+id/btn_showaddr"
+	       android:text="@string/show_addr"
+	       android:textSize="@dimen/textsize"
+	       android:layout_marginTop="5dp"
+	       android:background="@drawable/button_bg"
+	       android:textColor="@android:color/white" 
+	       android:paddingBottom="7dp"
+	        />
+	   <Button 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:id="@+id/btn_scanrequest"
+	       android:text="@string/scan_request"
+	        android:textSize="@dimen/textsize"
+	       android:background="@drawable/button_bg"
+	       android:textColor="@android:color/white" 
+	       android:paddingBottom="5dp"
+	       />	
+	       <!-- 
+	       <Button 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:id="@+id/btn_inputrequest"
+	       android:text="@string/input_request"
+	        android:textSize="@dimen/textsize"
+	       android:background="@drawable/button_bg"
+	       android:textColor="@android:color/white" 
+	       android:paddingBottom="5dp"
+	       />	   
+	   <Button 
+	        
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:id="@+id/btn_history"
+	       android:text="@string/history"
+	       android:textSize="@dimen/textsize"
+	        android:background="@drawable/button_bg"
+	        android:textColor="@android:color/white" 
+	       android:paddingBottom="5dp"
+	       />	
+	       <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="@string/others"
+        android:id="@+id/btn_others"
+        android:textColor="@android:color/white" 
+        android:textSize="@dimen/textsize"
+      
+	    android:layout_gravity="center_horizontal"
+	     android:paddingBottom="7dp"
+          />
+	        -->   
+	   <Button
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:id="@+id/btn_settings"
+	       android:text="@string/settings"
+	         android:textSize="@dimen/textsize"
+	        android:background="@drawable/button_bg"
+	        android:textColor="@android:color/white" 
+	        android:paddingBottom="5dp"
+	       />
+	   <Button 
+        android:layout_width="156dp"
+        android:layout_height="43dp"
+      android:background="@drawable/button_bg"
+        android:text="@string/accountmanage"
+        android:id="@+id/accountmanage"
+        android:textColor="@android:color/white" 
+        android:textSize="19sp"
+        android:layout_marginTop="70dp"
+	    android:layout_marginLeft="4dp"
+          />
+	    <Button 
+        android:layout_width="156dp"
+        android:layout_height="43dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/about"
+        android:id="@+id/about"
+        android:textColor="@android:color/white" 
+        android:textSize="19sp"
+        android:layout_marginTop="12dp"
+	    android:layout_marginLeft="4dp"
+          />
+	   
+	
+	</LinearLayout>	
+	
+	
+	
+	
+</FrameLayout>
+ 	

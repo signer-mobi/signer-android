@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="240dp"
+    android:layout_height="432dp"
+  android:background="@drawable/bg_v3"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+     android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    >
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_gravity="left"
+	   	android:layout_marginTop="10px"
+	    >
+	    <ImageView 
+	      android:layout_width="55dp"
+	      android:layout_height="55dp"
+	       
+		  android:visibility="invisible"
+	        />
+	     <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="@string/beifenqianbao"
+	     
+	      android:textSize="17sp"
+	      android:layout_gravity="center_vertical"
+	     
+	      android:layout_marginLeft="80dp"
+	      android:id="@+id/title"
+	      android:textColor="#02536e"
+	        />
+	    
+	</LinearLayout>
+	<TextView 
+	    
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/saomiao"
+	    android:text="@string/qingsaomiao2code"
+	   
+	    android:textSize="21sp"
+	      android:gravity="left"
+	      android:textColor="@android:color/white" 
+	      android:layout_marginTop="5dp"
+	      android:layout_marginLeft="-30px"
+	   
+	    />
+	<ImageView 
+	    android:layout_width="220px"
+	    android:layout_height="220px"
+	   
+	    
+	    android:id="@+id/backup_qr"
+	   	
+		android:layout_marginTop="5dp"
+	    />
+	<Button 
+	    android:layout_width="200px"
+	    android:layout_height="45px"
+	    android:id="@+id/btn_1"
+	    android:text="@string/yisaomiao"
+	
+	    android:textSize="19sp"
+	    android:gravity="center_horizontal"
+	    android:textColor="@android:color/white" 
+	    android:layout_marginTop="10dp"
+	    android:paddingTop="3px"
+	    android:background="@drawable/button_bg"
+	    />
+	
+	
+   
+
+</LinearLayout>

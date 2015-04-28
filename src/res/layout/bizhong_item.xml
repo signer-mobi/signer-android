@@ -1,0 +1,27 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@drawable/item_bg2"
+        >
+        
+         <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="30dp"
+	      android:textSize="20sp"	   
+	      android:textColor="@android:color/white" 
+	      android:id="@+id/bizhong_text"
+	      android:singleLine="true"
+	     />
+	   
+	     <ImageView 
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:src="@drawable/bz1_icon"
+	     android:id="@+id/bz_tuo"	       
+	       />
+
+	    
+	</LinearLayout>

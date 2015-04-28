@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".QitaActivity2" 
+   android:background="@drawable/bg_v3"
+    android:id="@+id/settings"
+    >
+	<TextView 
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:layout_marginTop="7px"
+        android:text="@string/qita_shezhi"
+        android:textColor="#02536e"
+        android:layout_marginLeft="0px"
+        ></TextView>
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical"
+       android:layout_marginTop="30dp"
+      android:layout_marginRight="50dp"
+      >
+      <Button 
+        android:layout_width="156px"
+        android:layout_height="43px"
+      android:background="@drawable/button_bg"
+        android:text="@string/shouxufei"
+        android:id="@+id/setfee"
+        android:textColor="@android:color/white" 
+        android:textSize="19sp"
+        android:layout_marginTop="70px"
+	    android:layout_marginLeft="4px"
+          />
+       <Button 
+        android:layout_width="156px"
+        android:layout_height="43px"
+         android:background="@drawable/button_bg"
+        android:text="@string/setqrlength"
+        android:id="@+id/setqrlength"
+        android:textColor="@android:color/white" 
+        android:textSize="19sp"
+        android:layout_marginTop="8px"
+	    android:layout_marginLeft="4px"
+          />
+        <Button 
+        android:layout_width="156px"
+        android:layout_height="43px"
+        android:background="@drawable/button_bg"
+        android:text="@string/settime"
+        android:id="@+id/settime"
+        android:textColor="@android:color/white" 
+        android:textSize="19sp"
+        android:layout_marginTop="8px"
+	    android:layout_marginLeft="4px"
+          />
+         
+          
+      
+  </LinearLayout>
+ 
+    <ImageView 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/lalian_bg"
+      android:layout_marginLeft="162px"
+      android:layout_marginTop="80px"
+      />
+
+</FrameLayout>

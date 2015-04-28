@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  
+    tools:context=".QitaActivity2" 
+    android:background="@drawable/bg_v3"
+    android:id="@+id/shwoaddress"
+    >
+      <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical"
+      >
+	<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	   android:text="@string/showaddress"	     
+	      android:layout_gravity="center_vertical"
+	      android:id="@+id/title"
+	      android:textSize="@dimen/textsize3"
+          android:textColor="#5b5f9b"
+	      
+	        />
+	   
+	     <EditText
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"	      
+	      android:textSize="@dimen/textsize3"
+	      android:id="@+id/addresstext"
+	      android:textColor="@android:color/white" 
+	     android:background="#4f4f4f"
+	     android:editable="false"
+	      />
+	      
+	  
+	     
+	       <LinearLayout 
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:orientation="horizontal"
+	      android:gravity="center_horizontal"
+	     
+	          >
+	     
+		     
+		   
+		   </LinearLayout>
+		    <ImageView 
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+		   android:src="@drawable/qrbox"  
+	       android:id="@+id/qrimg"
+	        android:layout_gravity="center_horizontal"
+	         android:gravity="center_horizontal"
+	         android:background="#ffffff"
+	         />
+    </LinearLayout>
+<LinearLayout 
+		   android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		     android:layout_gravity="right"
+		     android:layout_marginTop="0dp"
+		     android:layout_marginRight="5dp"
+		     android:id="@+id/switchcoin"
+		    >
+		  
+		     <ImageView
+		      android:layout_width="30dp"
+		      android:layout_height="30dp"
+		      android:src="@drawable/bz1_icon"
+		      android:id="@+id/bz_icon"
+		        />
+		     <ImageView
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:src="@drawable/arrow"
+		        />
+		    
+		</LinearLayout>
+</FrameLayout>
